@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "execution_mode": "Codex directly read local SKILL.md and task-specific references, generated concrete artifacts, then reconciled shared contracts. Not an installed auto-trigger test.",
+  "scenario": "回声：用户反馈审核与导出",
+  "business_input_kind": "8 synthetic feedback records, no real customer data",
+  "classifier_mode": "preset category suggestions for UI demonstration; not a model benchmark",
+  "skills": [
+    {
+      "skill": "pm-competitive-research",
+      "source_sha256": "6be135b42aef28b62361f75cee8cc795eeef63de3dad8260ae7ad9cf7a71d303",
+      "file": "SKILL.md"
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "assets/05-competitors.png",
+      "source": "rendered/05-competitors.html",
+      "width": 1280,
+      "height": 1555,
+      "capture": "ego-browser Chromium screenshot, unretouched",
+      "image_sha256": "9f24e0fa2a097d6cb9d052338ec97a28b640d62c9e4d7c82568669a4ae2072f7",
+      "source_sha256": "2947045c42ff4492164243576119496617a4b1a902423e302397cec15e8e86be"
+    }
+  ],
+  "example": {
+    "file": "examples/05-竞品分析.md",
+    "sha256": "4994e58bbf7a35430670b8f7ac8e04314faea76883e5d69273d000d25f3a96e6"
+  },
+  "verification": "报告引用当次实际查阅的官方页面，查阅日期为 2026-10-04；本次未登录试用。回声和反馈样本是演示设定，竞品功能描述有官方来源，但分类准确率、中文效果、完成任务耗时和市场空白均未验证。未来复用时应重新核对动态能力与价格。",
+  "not_claimed": [
+    "global skill auto-discovery",
+    "production deployment",
+    "real customer interviews",
+    "classifier accuracy benchmark",
+    "commercial efficiency improvement"
+  ],
+  "research_mode": "three products, public official pages; no account trial"
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "竞品与商业研究"
+  short_description: "围绕产品决策研究竞品、替代与定价，给出可追溯证据和差异化建议"
+  default_prompt: "使用 $pm-competitive-research 围绕我的产品决策研究竞品，核对当前来源，区分事实、推断和未知，给出行动建议。"

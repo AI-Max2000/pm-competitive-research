@@ -1,0 +1,72 @@
+{
+  "accessed_at": "2026-10-04",
+  "timezone": "Asia/Shanghai",
+  "method": "Official public documentation and product pages, retrieved using web search and open. No account login or product trial.",
+  "sources": [
+    {
+      "id": "C1",
+      "product": "Canny",
+      "title": "Send to Autopilot",
+      "url": "https://feedback.canny.io/changelog/send-to-autopilot",
+      "published_or_updated_at": null,
+      "evidence_type": "official changelog",
+      "supported_facts": [
+        "Users may manually send plain text or CSV files to Autopilot.",
+        "Detected feedback is captured and deduplicated.",
+        "Plain-text submission can include a source link.",
+        "CSV line items are processed individually; the documentation requests a user email column for attribution."
+      ],
+      "limitations": "Feature availability and exact workflow have not been tested. No accuracy, speed or Chinese-language quality claim is made."
+    },
+    {
+      "id": "C2",
+      "product": "Canny",
+      "title": "AI Customer Feedback Management / Autopilot",
+      "url": "https://canny.io/features/autopilot",
+      "published_or_updated_at": null,
+      "evidence_type": "official product page",
+      "supported_facts": [
+        "The product page says users can open the original conversation.",
+        "The FAQ says an audit log shows captured, merged and organized items, and actions can be undone."
+      ],
+      "limitations": "Vendor capability claims, not an independently verified test. Customer case-study accuracy numbers were deliberately excluded."
+    },
+    {
+      "id": "D1",
+      "product": "Dovetail",
+      "title": "Dovetail AI",
+      "url": "https://docs.dovetail.com/help/dovetail-ai/overview",
+      "requested_url": "https://dovetail.com/help/dovetail-ai/",
+      "published_or_updated_at": null,
+      "evidence_type": "official documentation",
+      "supported_facts": [
+        "Dovetail indicates AI contributions and adds user avatars when summaries are edited or highlights accepted.",
+        "Chat answers are described as traceable to source material.",
+        "Channels classifies incoming feedback.",
+        "AI summaries and thematic clustering of highlights are documented; some capabilities have plan restrictions."
+      ],
+      "limitations": "No claim of universal plan availability, achieved accuracy or actual ease of use. Documentation has not been validated through a product trial."
+    },
+    {
+      "id": "P1",
+      "product": "Productboard",
+      "title": "Review an item's insights",
+      "url": "https://support.productboard.com/hc/en-us/articles/10071375851155-Review-an-item-s-insights",
+      "requested_url": "https://support.productboard.com/hc/en-us/articles/10071375851155-Support-your-feature-ideas-with-customer-insights",
+      "published_or_updated_at": "2026-09-24 18:43 (timezone not stated on the page)",
+      "evidence_type": "official support documentation",
+      "supported_facts": [
+        "Linked feedback insights can be reviewed in a product item's Insights sidebar.",
+        "Users can unlink an insight or link it to a different item.",
+        "The More actions menu can jump directly to the source feedback item."
+      ],
+      "limitations": "The source URL redirected to a newer article. Claims use the opened current content, not the older search snippet. No hands-on test was performed."
+    }
+  ],
+  "analysis_inferences": [
+    "Canny is a direct functional substitute for pasted-feedback extraction in this scenario.",
+    "Source traceability is not an exclusive differentiation for the proposed Echo product.",
+    "A compact human-review flow is a positioning hypothesis that requires testing against users' existing workflows.",
+    "The proposed prototype cannot yet establish production model accuracy or a commercial market advantage."
+  ]
+}
